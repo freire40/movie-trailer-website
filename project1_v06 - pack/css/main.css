@@ -1,0 +1,87 @@
+@import url('http://fonts.googleapis.com/css?family=Merriweather+Sans:400,800,300');
+@import url('bootstrap.css');
+
+
+body {
+   font-family: 'Merriweather Sans', arial, sans-serif;
+   font-weight: 300;
+   color: rgb(89,89,89);
+}
+
+#trailer .modal-dialog {
+    margin-top: 200px;
+    width: 640px;
+    height: 480px;
+}
+.hanging-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 9001;
+}
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+.movie-row {
+    /*margin-bottom: 20px;*/
+    /*padding-top: 20px;*/
+}
+.movie-row:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+.text-thick {
+   font-weight: 800;
+}
+
+.title-size {
+   font-size: 48px;
+   margin-top: 60px;
+   margin-bottom: 0px;
+}
+
+.movie-title-size {
+   font-size: 30px;
+}
+
+.text-negative {
+   color: #ffffff
+}
+
+.top-banner {
+   /* not yet working... can't find a solution */
+
+   background-image:url('../images/theatre_room.png');
+   /* padding-bottom: 150px;     image size: 1250 x 344 */
+   background-size: 100%;
+   padding-bottom: 10%;
+   vertical-align: middle;
+}
+
+.banner-separator {
+   margin-top: 0px;
+   border-top: 3px solid rgb(242,242,242);
+}
+
+.text-separator {
+   margin-bottom: 30px;
+}
+
+.film-separator {
+   border-top: 3px solid rgb(242,242,242);
+}
